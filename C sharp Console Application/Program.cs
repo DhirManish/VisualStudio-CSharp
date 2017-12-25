@@ -3,15 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
 
-namespace Webclass
+namespace ConsoleApplication1
 {
-    public class Class1
+    class Program
     {
-        public static void main(String[] args)
+        static void Main(string[] args)
         {
             Boolean Flag = false;
             int a = 0;
@@ -21,9 +18,6 @@ namespace Webclass
             int limit = Int32.Parse(Console.ReadLine());
 
             Console.Write("helllo");
-
         }
-      
-
     }
 }
