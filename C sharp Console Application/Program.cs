@@ -13,11 +13,28 @@ namespace ConsoleApplication1
             Boolean Flag = false;
             int a = 0;
             int b = 1;
-            int c = 1;
+            int c = 0;
 
             int limit = Int32.Parse(Console.ReadLine());
 
-            Console.Write("helllo");
+            Console.Write(a + " ");
+
+            Console.Write(b + " ");
+
+            for (int i = 1; i <= limit; i++)
+            {
+                
+                c = a + b;
+
+                Console.Write(c + " ");
+
+                a = b;
+
+                b = c;
+                
+            }
+
+            Console.ReadLine();
         }
     }
 }
